@@ -1,6 +1,6 @@
 // Офлайн-режим: сначала сеть, при отсутствии сети — сохранённая копия.
 // Плюс приём push-напоминаний от сервера синхронизации.
-const CACHE = "sunnah7-v4";
+const CACHE = "sunnah7-v5";
 const FILES = [
   "./", "./index.html", "./styles.css", "./app.js", "./core.js", "./proofs.js", "./config.js",
   "./manifest.webmanifest", "./icon.svg", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png",
