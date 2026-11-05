@@ -50,7 +50,7 @@ test("слияние: побеждает более поздняя правка,
   assert.deepEqual(m.money["2026-10"], { t: 2, income: 1000, given: null });
 });
 
-test("да‘ват и ⅓ желудка учитываются с даты появления в трекере", async () => {
+test("да‘ват и заучивание аятов учитываются с даты появления в трекере", async () => {
   const { applicable } = await import("../public/core.js");
   assert.equal(applicable(d(2026, 11, 4)).length, 4);  // среда до добавления
   assert.equal(applicable(d(2026, 11, 5)).length, 7);  // четверг: пост + 6
